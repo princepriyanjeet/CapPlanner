@@ -9,7 +9,7 @@ namespace Application.Interfaces.Persistence
     {
         IQueryable<T> GetAll();
 
-        T Get(int id);
+        T Get(Guid id);
 
         void Add(T entity);
 

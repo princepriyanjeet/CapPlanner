@@ -19,8 +19,7 @@ namespace Domain.Trackers
         public decimal OnshoreCount { get; set; }
         public MonthlyPlanner TrackerMonth { get; set; }
         public int TrackerYear { get; set; }
-        public Guid ProjectId { get; set; }
-        public Project Project { get; set; }
+        
 
     }
 }
